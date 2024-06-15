@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Little Lemon</title>
-    <link rel="stylesheet" href="style.css">
+
     <meta property="og:title" content="Our Menu">
     <meta property="og:type" content="website">
     <meta property="og:image" content="logo.png">
-    <meta property="og:url" content="https://littlelemon">
+    <meta property="og:url" content="https://littlelemon/">
     <meta property="og:description"
         content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
     <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="Little Lemon">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -31,8 +31,20 @@
         </ul>
     </nav>
     <main>
-        <h1>Our Location</h1>
-        <img src="Salada.jpg" width="240" height="135" alt="A pasta salad">
+        <form>
+            <div>
+                <label for="username">Username</label>
+                <input type="text" id="username" required minlength="2">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" required minlength="2">
+            </div>
+            <div>
+                <button type="submit">Log In</button>
+            </div>
+        </form>
+
     </main>
     <footer>
         <p>Copyright Little Lemon</p>
